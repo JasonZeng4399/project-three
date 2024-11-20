@@ -1,0 +1,8 @@
+@font-face{
+    font-family: wastebone;
+    src:url(../font/WasteboneDemo-eZPOl.ttf);
+}
+
+a{
+    font-family: wastebone;
+}
