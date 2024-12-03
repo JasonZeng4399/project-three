@@ -1,8 +1,368 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+a {
+    font-family: wastebone;
+}
+
+body {
+    background-color: #cabaa9;
+    min-height: 100dvh;
+    width: 100%;
+}
+
+/*--------------------------navigation---------------------------*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    width: 15%;
+    background-color: #D3B09C;
+    min-height: 100dvh;
+    position: fixed;
+    z-index: 91;
+    
+}
+
+nav a {
+    font-size: 1.55em;
+    text-decoration: none;
+    color: black;
+}
+
+nav img {
+    width: 70%;
+
+}
+
+#nvwa {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#about {
+    display: flex;
+    position: relative;
+    right: 70%;
+    z-index: 99;
+}
+
+#event{
+    display: flex;
+    position: relative;
+    right: 18%;
+    z-index: 99;
+}
+
+#merch {
+    display: flex;
+    position: relative;
+    right: 70%;
+    z-index: 99;
+}
+
+#plate1 {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 49%;
+    width: 125%;
+    right: 13%;
+    z-index: 98;
+}
+
+#plate2 {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 27%;
+    width: 125%;
+    left: 14%;
+    z-index: 98;
+}
+
+#plate3 {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    bottom: 4.5%;
+    width: 125%;
+    right: 13%;
+    z-index: 98;
+}
+
+/*--------------------------backgrounds---------------------------*/
+
+#wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+
+#clouds1 {
+    width: 150%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    animation: animate 200s linear infinite;
+}
+
+#mountain {
+    width: 90%;
+    min-height: 100dvh;
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    z-index: 90;
+}
+
+#flowers{
+    width:80%;
+    display:flex;
+    flex-wrap: nowrap;
+    position:absolute;
+    bottom:7%;
+    left:20%;
+    z-index:93
+}
+
+h1 {
+    font-family: "canvas-script", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13em;
+}
+
+#claylike{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position:absolute;
+    bottom: 50%;
+    left: 20%;
+    z-index: 96;
+}
+
+#festival{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position:absolute;
+    bottom: 25%;
+    left: 55%;
+    z-index: 96;
+}
+
+/*--------------------------content---------------------------*/
+
+.content {
+    width: 85%;
+    min-height: 100dvh;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 15%;
+}
+
+
+#background {
+    width: 100%;
+    min-height: 100dvh;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.content h1 {
+    font-family: "quinn-text", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 5em;
+    display: flex;
+    padding-top: 5%;
+    padding-left: 9.5%;
+    z-index: 100;
+}
+
+.content h2 {
+    font-family: "source-han-serif-tw-subset", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3em;
+    position: absolute;
+    top: 22%;
+    padding-left: 9.5%;
+
+}
+
+.content h3 {
+    font-family: "quinn-text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    display: flex;
+    position: absolute;
+    top: 32%;
+    padding-left: 9.7%;
+    padding-right: 9.5%;
+    text-align:left;
+    z-index: 100;
+    line-height: 150%;
+}
+
+#mission {
+    font-family: "quinn-text", serif;
+    font-weight: 700;
+    font-size: 5em;
+    font-style: bold;
+    top: 60%;
+}
+
+#mission2 {
+    display: flex;
+    position: absolute;
+    top: 73%;
+}
+
+#mission3 {
+    display: flex;
+    position: absolute;
+    top: 83%;
+}
+
+#partner {
+   
+    font-family: "quinn-text", serif;
+    font-weight: 700;
+    font-size: 5em;
+    font-style: bold;
+    top: 103%;
+}
+
+#partner2 {
+    display: flex;
+    position: absolute;
+    top: 116%;
+}
+
+#museums {
+    width: 70%;
+    position: absolute;
+    left: 20%;
+    top: 126%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.museumlogos {
+    display: flex;
+    padding-top: 15%;
+    width: 60%;
+}
+
+.museumlogos:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    width: 85%;
+    background-color: #e8eadc;
+    position: absolute;
+    top: 170%;
+    border-top: black 2px solid;
+    left: 15%;
+    justify-content: center;
+}
+
+#copyright {
+    left: 15%;
+    padding: 0% 45% 5% 45%;
+    display: flex;
+    margin-top: 2%;
+}
+
+footer p {
+    font-family: "quinn-text", serif;
+    font-weight: 200;
+    font-size: 1em;
+    font-style: light;
+    padding-right:150%;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container {
+    width: 70%;
+    min-height: 100dvh;
+    background-color: brown;
+    position: absolute;
+    left: 8%;
+    top: 48%;
+}
+
+#day1 {
+    display: flex;
+    position: absolute;
+}
+
+#day2 {
+    display: flex;
+    position: absolute;
+    top:60%;
+}
+
+#day3 {
+    display: flex;
+    position: absolute;
+    top: 125%;
+}
+
+p{
+    background-color: aqua;
+    position: relative;
+    top: 80%;
+    left: 20%;
+    font-size: 1.5em;
+}
+
+.eventpadding {
+    padding-left: 50%;
+    padding-right: 50%;
+}
+
+/*--------------------------animation---------------------------*/
+
+@keyframes animate{
+    0%{margin-left: 0;}
+    100%{margin-left: -100%;}
+}
+
 @font-face{
     font-family: wastebone;
     src:url(../font/WasteboneDemo-eZPOl.ttf);
 }
 
-a{
-    font-family: wastebone;
-}
+@media screen and (max-width: 800px) {
+    html {
+    font-size: 80%;
+    }
+    }
