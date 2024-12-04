@@ -310,43 +310,89 @@ footer p {
     justify-content: space-between;
 }
 
+/*--------------------------events---------------------------*/
+
 #container {
-    width: 70%;
+    width: 85%;
     min-height: 100dvh;
-    background-color: brown;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    left: 8%;
-    top: 48%;
+    margin-top: -10%;
 }
 
 #day1 {
     display: flex;
-    position: absolute;
+
 }
 
 #day2 {
     display: flex;
-    position: absolute;
-    top:60%;
 }
 
 #day3 {
     display: flex;
-    position: absolute;
-    top: 125%;
 }
 
 p{
-    background-color: aqua;
     position: relative;
-    top: 80%;
-    left: 20%;
     font-size: 1.5em;
 }
 
-.eventpadding {
-    padding-left: 50%;
-    padding-right: 50%;
+#eventpadding1 {
+    padding-left: 18%;
+    padding-right: 17%;
+}
+
+#eventpadding2 {
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+#extrapadding3 {
+    padding-left: 17%;
+    padding-right: 17%;
+}
+    
+#eventpics {
+    width: 70%;
+    position: relative;
+    right: 66%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#eventpics2 {
+    width: 70%;
+    position: relative;
+    right: 64%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#eventpics3 {
+    width: 70%;
+    position: relative;
+    right: 63%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#container h2{
+    margin-left: 5%;
+    margin-right: 7%;
+    font-size: 3em;
+}
+
+#eventfooter {
+    width: 100%;
+    background-color: #e8eadc;
+    position: relative;
+    top: 170%;
+    border-top: black 2px solid;
+    justify-content: center;
+    margin-left: -15%;
 }
 
 /*--------------------------animation---------------------------*/

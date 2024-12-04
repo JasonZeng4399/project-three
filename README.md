@@ -119,6 +119,10 @@ Used to capture the coherent aesthetics of Chinese letter.
 
   https://mockups-design.com/citylight-against-concrete-wall-mockup/
 
+* AI generated pictures zip file link:
+
+https://sfsu.box.com/s/24ptefhwg7dinunxvjknau7ff5iowgx2
+
 ### We are partnering up with
 
 * Asian Art Museum
@@ -132,7 +136,10 @@ Used to capture the coherent aesthetics of Chinese letter.
 
 ### Guest
 
+Images used for this project were from their professional website
+
 Garbo Zhu: https://www.instagram.com/garbo.zhu/?hl=en
+           https://www.tubefilter.com/2023/06/07/creators-on-the-rise-grumpy-kid-studio/
 
 Shen Yun Symphony Orechestra: 
 https://shenyunsymphony.com
