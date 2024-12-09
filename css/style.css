@@ -177,16 +177,17 @@ h1 {
     flex-wrap: nowrap;
     position: relative;
     left: 15%;
+    z-index: 99;
 }
 
-
-#background {
+.background {
     width: 100%;
     min-height: 100dvh;
     background-repeat: repeat-y;
     background-size: cover;
     position: absolute;
     z-index: 1;
+
 }
 
 .content h1 {
@@ -270,6 +271,7 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    z-index: 99;
 }
 
 .museumlogos {
@@ -290,6 +292,7 @@ footer {
     border-top: black 2px solid;
     left: 15%;
     justify-content: center;
+    z-index: 98;
 }
 
 #copyright {
@@ -322,17 +325,70 @@ footer p {
     margin-top: -10%;
 }
 
+#map {
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 6%;
+}
+
+#map h2{
+    margin-top: -4%;
+}
+
+#chinese {
+    margin-left: -5.25%;
+    padding-top: 3%;
+}
+
+#location {
+    margin-left: 2%;
+    margin-top: 7%;
+    max-height: 90dvh;
+    width: 90%;
+    border: black 2px solid;
+    margin-bottom: 5%;
+}
+
+#spot {
+    position: relative;
+    top: 65%;
+    font-weight: 500;
+}
+
 #day1 {
     display: flex;
+    background-color: #e8eadc;
+    padding-top: 8%;
+    border: black 2px solid;
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 81%;
+    padding-bottom: 10%;
 
 }
 
 #day2 {
     display: flex;
+    padding-top: 8%;
+    background-color: #e8eadc;
+    margin-top: 10%;
+    border: black 2px solid;
+    margin-left: 2%;
+    margin-right: 3%;
+    padding-bottom: 10%;
 }
 
 #day3 {
     display: flex;
+    padding-top: 8%;
+    background-color: #e8eadc;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: black 2px solid;
+    margin-left: 2%;
+    margin-right: 3%;
+    padding-bottom: 3%;
 }
 
 p{
@@ -346,8 +402,8 @@ p{
 }
 
 #eventpadding2 {
-    padding-left: 18%;
-    padding-right: 18%;
+    padding-left: 17%;
+    padding-right: 17%;
 }
 
 #extrapadding3 {
@@ -358,25 +414,31 @@ p{
 #eventpics {
     width: 70%;
     position: relative;
-    right: 66%;
+    right: 63%;
     margin-top: 10%;
     margin-bottom: 10%;
+    z-index: 100;
+    border: black 2px solid;
 }
 
 #eventpics2 {
     width: 70%;
     position: relative;
-    right: 64%;
+    right: 63%;
     margin-top: 10%;
     margin-bottom: 10%;
+    z-index: 100;
+    border: black 2px solid;
 }
 
 #eventpics3 {
     width: 70%;
     position: relative;
-    right: 63%;
+    right: 62%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
+    z-index: 100;
+    border: black 2px solid;
 }
 
 #container h2{
@@ -393,6 +455,129 @@ p{
     border-top: black 2px solid;
     justify-content: center;
     margin-left: -15%;
+}
+
+#locationtitle {
+    font-family: "quinn-text", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 5em;
+    position: relative;
+    padding-left: 4.25%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+#time {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: absolute;
+    margin-top: 107%;
+    padding-right: 100%;
+    padding-bottom: 50%;
+    justify-content: flex-start;
+    margin-left: 6%;
+}
+
+#timetitle {
+    font-family: "quinn-text", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 5em;
+    position: absolute;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    display: inline;
+    margin-left: 13%;
+    margin-top: -62%;
+}
+
+#chinesetime {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -54%;
+    font-family: "source-han-serif-tw-subset", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3em;
+    z-index: 100;
+
+}
+
+#timeline1 {
+    display: flex;
+    position: absolute;
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+    width: 32%;
+    margin-left: 35%;
+    margin-top: -23%;
+    z-index: 100;
+
+}
+
+#timeline2 {
+    display: flex;
+    position: absolute;
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+    width: 33%;
+    z-index: 100;
+    margin-left: 33%;
+    margin-top: 32%;
+
+}
+
+#timeline3 {
+    display: flex;
+    position: absolute;
+    margin-top: 86%;
+    margin-left: 33%;
+    text-align: center;
+    justify-content: center;
+    width: 32%;
+    z-index: 100;
+
+}
+
+.layout {
+    font-size: 1.5em;
+    display: block;
+    margin: 17%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+/*--------------------------merch---------------------------*/
+
+#shop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -31%;
+    margin-top: 10%;
+}
+
+#shop img {
+    width: 25%;
+    background-color: #e8eadc;
+    border: black 1px solid;
+}
+
+#claylikemerch {
+    display:inline
+}
+
+#merchfooter {
+    left: 15%;
+    padding: 0% 45% 5% 45%;
+    display: flex;
+    margin-top: 2%;
 }
 
 /*--------------------------animation---------------------------*/
