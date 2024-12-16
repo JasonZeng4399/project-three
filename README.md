@@ -123,6 +123,17 @@ Used to capture the coherent aesthetics of Chinese letter.
 
 https://sfsu.box.com/s/24ptefhwg7dinunxvjknau7ff5iowgx2
 
+* Freepik Mock ups:
+
+Tote bag: 
+https://www.freepik.com/free-psd/isolated-hand-holding-eco-friendly-tote-bag_48087218.htm#fromView=keyword&page=1&position=6&uuid=e22692bf-d924-4acd-91c2-a3ea6f028783
+
+Ticket:
+https://www.freepik.com/free-psd/art-event-template-design_200478244.htm#fromView=search&page=4&position=34&uuid=8de254d8-99dc-437e-8a69-5444fd7dcd6c
+
+Shirt:
+https://www.freepik.com/free-psd/psd-isolated-pack-black-tshirts-front-view_47863355.htm#fromView=search&page=4&position=22&uuid=a4da1533-1945-4035-842d-9b65c7c47bae
+
 ### We are partnering up with
 
 * Asian Art Museum
